@@ -51,6 +51,7 @@ public class CompositionLine extends JPanel
 				tp.y - this.getLocation().y);
 		g.setColor(Color.BLACK);
 		g.drawLine(fpPrime.x, fpPrime.y, tpPrime.x, tpPrime.y);
+		// System.out.println("com line paint?");
 		paintArrow(g, tpPrime);
 		if (isSelect == true)
 		{

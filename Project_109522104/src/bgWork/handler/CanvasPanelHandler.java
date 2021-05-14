@@ -459,7 +459,8 @@ public class CanvasPanelHandler extends PanelHandler
 						break;
 					case 1:
 						((CompositionLine) funcObj).setConnect(dPack);
-					
+						
+						break;
 					case 2:
 						((GeneralizationLine) funcObj).setConnect(dPack);
 					
