@@ -114,6 +114,7 @@ public class CanvasPanelHandler extends PanelHandler
 	{
 		boolean isSelect = false;
 		selectComp = new Vector <>();
+		resetHighlightAllType();
 		for (int i = 0; i < members.size(); i ++)
 		{
 			if (isInside(members.elementAt(i), e.getPoint()) == true
@@ -207,12 +208,12 @@ public class CanvasPanelHandler extends PanelHandler
 					default:
 						break;
 				}
-				break;
+				//break;
 			}
 			else
 			{
 				setSelectAllType(members.elementAt(i), false);
-				resetHighlightAllType();
+				//resetHighlightAllType();
 			}
 		}
 		repaintComp();
